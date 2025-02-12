@@ -1,0 +1,93 @@
+{% load static %}
+{% url 'home' as home_url %}
+{% url 'films' as films_url %}
+{% url 'account_login' as login_url %}
+{% url 'account_signup' as signup_url %}
+{% url 'account_logout' as logout_url %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tag for search engines-->
+    <meta name="description"
+        content="LM STAIRS | LM STAIRS to renomowany producent ekskluzywnych schodów metalowych. Oferujemy kompleksowe usługi: pomiary i site survey, design, kalkulacje, wizualizacje, rysunki produkcyjne, produkcję oraz montaż. Nasza siedziba znajduje się w sercu Londynu (skupiamy nasze działania na Londynie oraz okolicach, ale działamy również międzynarodowo).">
+    <meta name="keywords"
+        content="LM STAIRS, schody metalowe, luksusowe schody, bespoke, design schodów, pomiary, rysunki produkcyjne, montaż schodów, London, Westminster, Camden, Kensington, Islington, City of London, metal stairs, luxury stairs, bespoke, staircase design, measurements, production drawings, staircase assembly, 金屬樓梯，豪華樓梯，定制，設計，測量，生產圖紙，組裝">
+    <title>LM STAIRS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- Favicon https://favicon.io/-->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon-16x16.png' %}">
+</head>
+
+<body class="">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'home' %}"><span class="brand">LM STAIRS</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == home_url %}active" aria-current="page{% endif %}"
+                            href="{% url 'home' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == about_url %}active" aria-current="page{% endif %}"
+                            href="{% url 'about' %}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page"
+                            href="{% url 'services' %}">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page"
+                            href="{% url 'staircase' %}">Staircase Types</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == gallery_url %}active" aria-current="page{% endif %}"
+                            href="{% url 'gallery' %}">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == faq_url %}active" aria-current="page{% endif %}"
+                            href="{% url 'faq' %}">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == contact_url %}active" aria-current="page{% endif %}"
+                            href="{% url 'contact' %}">Contact</a>
+                    </li>
+                </ul>
+                <span class="navbar-text text-muted">
+                </span>
+            </div>
+        </div>
+    </nav>
+    
+        {% block content %}
+        <!-- Content Goes here -->
+        {% endblock content %}
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 dark-bg">
+        <p class="m-0 text-center text-white">Copyright 2025 Serra Kır Dworczak</p>
+    </footer>
+
+    {% block extras %}
+    {% endblock %}
+</body>
+
+</html>
