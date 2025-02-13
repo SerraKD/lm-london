@@ -179,3 +179,13 @@ i.bi.bi-wrench-adjustable-circle-fill {
     font-size: 10rem;
 }
 
+/* FAQ page */
+
+svg.bi.bi-question-circle-fill {
+    color: rgb(5, 116, 212);
+}
+
+section#faq-section2 {
+    padding-top: 0 !important;
+}
+
