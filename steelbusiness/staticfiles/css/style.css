@@ -166,3 +166,16 @@ p {
     margin-right: 0%;
 }
 
+/* Services page */
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+i.bi.bi-wrench-adjustable-circle-fill {
+    font-size: 10rem;
+}
+
