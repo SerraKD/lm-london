@@ -1,3 +1,6 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 /* Asterisk wildcard selector */
 * {
     padding: 0;
@@ -5,8 +8,40 @@
     box-sizing: border-box;
 }
 
+/* Navbar styles */
+.logo{
+    padding-right: 5px;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    color: rgb(5, 116, 212);
+}
+
+#navbarText {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 450;
+}
+
 /* Carousel */
 .carousel-inner{
     max-height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Lato', sans-serif;
+}
+
+.carousel-caption h5{
+    background: linear-gradient(176deg, #e9ecef 0%, #e9ecef5c 1%);
+}
+
+.img-fluid {
+    max-width: 100%;
+    /* object-fit: fill; */
 }
 
