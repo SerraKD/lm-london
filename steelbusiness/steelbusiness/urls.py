@@ -23,7 +23,6 @@ from main import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('', include('steelbusiness.urls')),
-    path("i18n/", include("django.conf.urls.i18n"), name="set_language"),
 ]
 
 
