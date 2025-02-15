@@ -1,29 +1,37 @@
 from django.shortcuts import render
+from django.utils.translation import gettext as _   # translation function
 
 
 def home(request):
-    return render(request, 'main/home.html')
+    context = {'title': _("Home")}
+    return render(request, 'main/home.html', context)
 
 
 def about(request):
-    return render(request, 'main/about.html')
+    context = {'title': _("About Us")}
+    return render(request, 'main/about.html', context)
 
 
 def services(request):
-    return render(request, 'main/services.html')
+    context = {'title': _("Our Services")}
+    return render(request, 'main/services.html', context)
 
 
 def staircase(request):
-    return render(request, 'main/staircase.html')
+    context = {'title': _("Staircase Design")}
+    return render(request, 'main/staircase.html', context)
 
 
 def gallery(request):
-    return render(request, 'main/gallery.html')
+    context = {'title': _("Gallery")}
+    return render(request, 'main/gallery.html', context)
 
 
 def faq(request):
-    return render(request, 'main/faq.html')
+    context = {'title': _("Frequently Asked Questions")}
+    return render(request, 'main/faq.html', context)
 
 
 def contact(request):
-    return render(request, 'main/contact.html')
+    context = {'title': _("Contact Us")}
+    return render(request, 'main/contact.html', context)
