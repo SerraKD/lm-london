@@ -18,6 +18,11 @@ from django.utils.translation import gettext_lazy as _
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
+LOCALE_PATHS = [
+    os.path.join(BASE_DIR, 'locale'),
+]
+
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
@@ -107,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
-LANGUAGE_CODE = "en-us" # Default language
+LANGUAGE_CODE = "en-us"  # Default language
 
 TIME_ZONE = "UTC"
 
@@ -124,7 +129,6 @@ LANGUAGES = [
 
 USE_I18N = True  # Enable internationalization
 
-LOCALE_PATHS = [BASE_DIR / 'locale']  # Folder for translation files
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
