@@ -270,3 +270,30 @@ div#i69b-2 {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+/* About page */
+.row.align-items-center {
+    padding: 60px 10px;
+}
+
+a.btn.btn-small.contact-button {
+    background-color: rgb(5, 116, 212);
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Gallery page */
+
+.col-lg-4.col-md-12.mb-4.mb-lg-0 {
+    padding-right: 2px;
+}
+
+.col-lg-4.mb-4.mb-lg-0 {
+    padding-left: 0px;
+    padding-right: 2px;
+}
+
+section.gallery {
+    padding: 40px 10px;
+}
+
