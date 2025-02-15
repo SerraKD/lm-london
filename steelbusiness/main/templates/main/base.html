@@ -1,4 +1,3 @@
-{% load i18n %}
 {% load static %}
 {% url 'home' as home_url %}
 {% url 'about' as about_url %}
@@ -7,7 +6,7 @@
 {% url 'gallery' as gallery_url %}
 {% url 'faq' as faq_url %}
 {% url 'contact' as contact_url %}
-
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -76,14 +75,6 @@
                 </span>
             </div>
         </div>
-        <form action="{% url 'set_language' %}" method="post">
-            {% csrf_token %}
-            <select name="language" onchange="this.form.submit()">
-                <option value="en" {% if LANGUAGE_CODE == 'en' %}selected{% endif %}>English</option>
-                <option value="zh-hans" {% if LANGUAGE_CODE == 'zh-hans' %}selected{% endif %}>Mandarin</option>
-                <option value="pl" {% if LANGUAGE_CODE == 'pl' %}selected{% endif %}>Polish</option>
-            </select>
-        </form>
     </nav>
     
         {% block content %}
