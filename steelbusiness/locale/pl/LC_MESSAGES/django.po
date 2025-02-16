@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-16 11:51+0000\n"
+"POT-Creation-Date: 2025-02-16 20:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,6 +23,10 @@ msgstr ""
 msgid "Site Survey and Measurements"
 msgstr "Badanie terenu i pomiary"
 
+#: steelbusiness/main/templates/main/home.html:62
+msgid "Design and Calculations"
+msgstr ""
+
 #: steelbusiness/main/templates/main/home.html:72
 msgid "Fabrication Drawings"
 msgstr "Rysunki wykonawcze"
@@ -31,6 +35,7 @@ msgstr "Rysunki wykonawcze"
 msgid "Fabrication and Installation"
 msgstr "Produkcja i montaż"
 
+#: steelbusiness/main/templates/main/home.html:98
 #: steelbusiness/main/templates/main/home.html:99
 msgid "Staircase Types"
 msgstr "Rodzaje schodów"
@@ -40,7 +45,10 @@ msgid ""
 "The examples below represent some of the staircase types we produce. With "
 "our extensive experience, we also create custom, non-standard designs "
 "tailored to your unique requirements."
-msgstr "Poniższe przykłady przedstawiają niektóre z rodzajów schodów, które produkujemy. Dzięki naszemu bogatemu doświadczeniu tworzymy również niestandardowe projekty dostosowane do Twoich unikalnych wymagań."
+msgstr ""
+"Poniższe przykłady przedstawiają niektóre z rodzajów schodów, które "
+"produkujemy. Dzięki naszemu bogatemu doświadczeniu tworzymy również "
+"niestandardowe projekty dostosowane do Twoich unikalnych wymagań."
 
 #: steelbusiness/main/templates/main/home.html:108
 msgid "Spiral Staircase"
@@ -74,42 +82,39 @@ msgstr "Wyjście ewakuacyjne"
 msgid "Basement Staircase"
 msgstr "Schody do piwnicy"
 
-#: steelbusiness/main/views.py:6
+#: steelbusiness/main/views.py:9
 msgid "Home"
 msgstr "Strona główna"
 
-#: steelbusiness/main/views.py:11
+#: steelbusiness/main/views.py:14
 msgid "About Us"
 msgstr "O nas"
 
-#: steelbusiness/main/views.py:16
+#: steelbusiness/main/views.py:19
 msgid "Our Services"
 msgstr "Nasze usługi"
 
-#: steelbusiness/main/views.py:21
+#: steelbusiness/main/views.py:24
 msgid "Staircase Design"
 msgstr "Projektowanie schodów"
 
-#: steelbusiness/main/views.py:26
+#: steelbusiness/main/views.py:29
 msgid "Gallery"
 msgstr "Galeria"
 
-#: steelbusiness/main/views.py:31
+#: steelbusiness/main/views.py:34
 msgid "Frequently Asked Questions"
 msgstr "Często zadawane pytania"
 
-#: steelbusiness/main/views.py:36
+#: steelbusiness/main/views.py:39
 msgid "Contact Us"
 msgstr "Kontakt"
 
-#: steelbusiness/steelbusiness/settings.py:124
-msgid "English"
-msgstr "Angielski"
+#~ msgid "English"
+#~ msgstr "Angielski"
 
-#: steelbusiness/steelbusiness/settings.py:125
-msgid "Mandarin"
-msgstr "Mandaryński"
+#~ msgid "Mandarin"
+#~ msgstr "Mandaryński"
 
-#: steelbusiness/steelbusiness/settings.py:126
-msgid "Polish"
-msgstr "Polski"
+#~ msgid "Polish"
+#~ msgstr "Polski"

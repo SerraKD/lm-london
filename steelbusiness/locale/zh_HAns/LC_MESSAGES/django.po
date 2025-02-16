@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-16 11:51+0000\n"
+"POT-Creation-Date: 2025-02-16 20:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,10 @@ msgstr ""
 msgid "Site Survey and Measurements"
 msgstr "现场调查和测量"
 
+#: steelbusiness/main/templates/main/home.html:62
+msgid "Design and Calculations"
+msgstr ""
+
 #: steelbusiness/main/templates/main/home.html:72
 msgid "Fabrication Drawings"
 msgstr "制作图纸"
@@ -28,6 +32,7 @@ msgstr "制作图纸"
 msgid "Fabrication and Installation"
 msgstr "制作和安装"
 
+#: steelbusiness/main/templates/main/home.html:98
 #: steelbusiness/main/templates/main/home.html:99
 msgid "Staircase Types"
 msgstr "楼梯类型"
@@ -37,7 +42,9 @@ msgid ""
 "The examples below represent some of the staircase types we produce. With "
 "our extensive experience, we also create custom, non-standard designs "
 "tailored to your unique requirements."
-msgstr "以下示例代表我们生产的一些楼梯类型。凭借我们丰富的经验，我们还可以根据您的独特需求定制非标准设计。"
+msgstr ""
+"以下示例代表我们生产的一些楼梯类型。凭借我们丰富的经验，我们还可以根据您的独"
+"特需求定制非标准设计。"
 
 #: steelbusiness/main/templates/main/home.html:108
 msgid "Spiral Staircase"
@@ -71,42 +78,39 @@ msgstr "消防出口"
 msgid "Basement Staircase"
 msgstr "地下室楼梯"
 
-#: steelbusiness/main/views.py:6
+#: steelbusiness/main/views.py:9
 msgid "Home"
 msgstr "首页"
 
-#: steelbusiness/main/views.py:11
+#: steelbusiness/main/views.py:14
 msgid "About Us"
 msgstr "关于我们"
 
-#: steelbusiness/main/views.py:16
+#: steelbusiness/main/views.py:19
 msgid "Our Services"
 msgstr "我们的服务"
 
-#: steelbusiness/main/views.py:21
+#: steelbusiness/main/views.py:24
 msgid "Staircase Design"
 msgstr "楼梯设计"
 
-#: steelbusiness/main/views.py:26
+#: steelbusiness/main/views.py:29
 msgid "Gallery"
 msgstr "画廊"
 
-#: steelbusiness/main/views.py:31
+#: steelbusiness/main/views.py:34
 msgid "Frequently Asked Questions"
 msgstr "常见问题"
 
-#: steelbusiness/main/views.py:36
+#: steelbusiness/main/views.py:39
 msgid "Contact Us"
 msgstr "联系我们"
 
-#: steelbusiness/steelbusiness/settings.py:124
-msgid "English"
-msgstr "英语"
+#~ msgid "English"
+#~ msgstr "英语"
 
-#: steelbusiness/steelbusiness/settings.py:125
-msgid "Mandarin"
-msgstr "普通话"
+#~ msgid "Mandarin"
+#~ msgstr "普通话"
 
-#: steelbusiness/steelbusiness/settings.py:126
-msgid "Polish"
-msgstr "波兰语"
+#~ msgid "Polish"
+#~ msgstr "波兰语"

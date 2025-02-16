@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-16 11:50+0000\n"
+"POT-Creation-Date: 2025-02-16 20:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,10 @@ msgstr ""
 msgid "Site Survey and Measurements"
 msgstr "Site Survey and Measurements"
 
+#: steelbusiness/main/templates/main/home.html:62
+msgid "Design and Calculations"
+msgstr ""
+
 #: steelbusiness/main/templates/main/home.html:72
 msgid "Fabrication Drawings"
 msgstr "Fabrication Drawings"
@@ -29,6 +33,7 @@ msgstr "Fabrication Drawings"
 msgid "Fabrication and Installation"
 msgstr "Fabrication and Installation"
 
+#: steelbusiness/main/templates/main/home.html:98
 #: steelbusiness/main/templates/main/home.html:99
 msgid "Staircase Types"
 msgstr "Staircase Types"
@@ -75,42 +80,39 @@ msgstr "Fire Exit"
 msgid "Basement Staircase"
 msgstr "Basement Staircase"
 
-#: steelbusiness/main/views.py:6
+#: steelbusiness/main/views.py:9
 msgid "Home"
 msgstr "Home"
 
-#: steelbusiness/main/views.py:11
+#: steelbusiness/main/views.py:14
 msgid "About Us"
 msgstr "About Us"
 
-#: steelbusiness/main/views.py:16
+#: steelbusiness/main/views.py:19
 msgid "Our Services"
 msgstr "Our Services"
 
-#: steelbusiness/main/views.py:21
+#: steelbusiness/main/views.py:24
 msgid "Staircase Design"
 msgstr "Staircase Design"
 
-#: steelbusiness/main/views.py:26
+#: steelbusiness/main/views.py:29
 msgid "Gallery"
 msgstr "Gallery"
 
-#: steelbusiness/main/views.py:31
+#: steelbusiness/main/views.py:34
 msgid "Frequently Asked Questions"
 msgstr "Frequently Asked Questions"
 
-#: steelbusiness/main/views.py:36
+#: steelbusiness/main/views.py:39
 msgid "Contact Us"
 msgstr "Contact Us"
 
-#: steelbusiness/steelbusiness/settings.py:124
-msgid "English"
-msgstr "English"
+#~ msgid "English"
+#~ msgstr "English"
 
-#: steelbusiness/steelbusiness/settings.py:125
-msgid "Mandarin"
-msgstr "Mandarin"
+#~ msgid "Mandarin"
+#~ msgstr "Mandarin"
 
-#: steelbusiness/steelbusiness/settings.py:126
-msgid "Polish"
-msgstr "Polish"
+#~ msgid "Polish"
+#~ msgstr "Polish"
