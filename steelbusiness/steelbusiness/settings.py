@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 LOCALE_PATHS = [
-    os.path.join(BASE_DIR, 'steelbusiness', 'locale/'),
+    os.path.join(BASE_DIR, 'steelbusiness', 'locale'),
 ]
 
 
@@ -115,7 +115,6 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en'  # Default language
 
 USE_I18N = True  # Enable internationalization
-USE_L10N = True
 
 TIME_ZONE = "UTC"
 
@@ -123,9 +122,9 @@ USE_TZ = True
 
 
 LANGUAGES = [
-    ('en', _('English')),
-    ('pl', _('Polish')),
-    ('zh-hans', _('Mandarin')),
+    ('en', 'English'),
+    ('pl', 'Polish'),
+    ('zh-Hans', 'Mandarin'),
 ]
 
 
