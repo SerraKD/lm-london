@@ -34,4 +34,5 @@ urlpatterns = [
     path('gallery/', views.gallery, name='gallery'),
     path('faq/', views.faq, name='faq'),
     path('contact/', views.contact, name='contact'),
+    path('i18n/', include('django.conf.urls.i18n'))
 ]
