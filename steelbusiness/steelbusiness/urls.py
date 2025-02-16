@@ -16,6 +16,7 @@ Including another URLconf
 """
 
 from django.contrib import admin
+from django.conf.urls.i18n import i18n_patterns
 from django.urls import path, include
 from main import views
 
@@ -34,5 +35,8 @@ urlpatterns = [
     path('gallery/', views.gallery, name='gallery'),
     path('faq/', views.faq, name='faq'),
     path('contact/', views.contact, name='contact'),
-    path('i18n/', include('django.conf.urls.i18n'))
 ]
+
+urlpatterns += i18n_patterns(
+    path('i18n/', include('django.conf.urls.i18n')),
+)
