@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-16 11:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+#: steelbusiness/main/templates/main/home.html:52
+msgid "Site Survey and Measurements"
+msgstr ""
+
+#: steelbusiness/main/templates/main/home.html:72
+msgid "Fabrication Drawings"
+msgstr ""
+
+#: steelbusiness/main/templates/main/home.html:82
+msgid "Fabrication and Installation"
+msgstr ""
+
+#: steelbusiness/main/templates/main/home.html:99
+msgid "Staircase Types"
+msgstr ""
+
+#: steelbusiness/main/templates/main/home.html:100
+msgid ""
+"The examples below represent some of the staircase types we produce. With "
+"our extensive experience, we also create custom, non-standard designs "
+"tailored to your unique requirements."
+msgstr ""
+
+#: steelbusiness/main/templates/main/home.html:108
+msgid "Spiral Staircase"
+msgstr ""
+
+#: steelbusiness/main/templates/main/home.html:116
+msgid "Curved Staircase"
+msgstr ""
+
+#: steelbusiness/main/templates/main/home.html:124
+msgid "Single Central Stringer"
+msgstr ""
+
+#: steelbusiness/main/templates/main/home.html:132
+msgid "Straight Staircase"
+msgstr ""
+
+#: steelbusiness/main/templates/main/home.html:140
+msgid "Exterior Staircase"
+msgstr ""
+
+#: steelbusiness/main/templates/main/home.html:148
+msgid "Space Saving"
+msgstr ""
+
+#: steelbusiness/main/templates/main/home.html:156
+msgid "Fire Exit"
+msgstr ""
+
+#: steelbusiness/main/templates/main/home.html:164
+msgid "Basement Staircase"
+msgstr ""
+
+#: steelbusiness/main/views.py:6
+msgid "Home"
+msgstr ""
+
+#: steelbusiness/main/views.py:11
+msgid "About Us"
+msgstr ""
+
+#: steelbusiness/main/views.py:16
+msgid "Our Services"
+msgstr ""
+
+#: steelbusiness/main/views.py:21
+msgid "Staircase Design"
+msgstr ""
+
+#: steelbusiness/main/views.py:26
+msgid "Gallery"
+msgstr ""
+
+#: steelbusiness/main/views.py:31
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: steelbusiness/main/views.py:36
+msgid "Contact Us"
+msgstr ""
+
+#: steelbusiness/steelbusiness/settings.py:124
+msgid "English"
+msgstr ""
+
+#: steelbusiness/steelbusiness/settings.py:125
+msgid "Mandarin"
+msgstr ""
+
+#: steelbusiness/steelbusiness/settings.py:126
+msgid "Polish"
+msgstr ""
