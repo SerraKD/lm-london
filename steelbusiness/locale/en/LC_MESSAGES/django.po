@@ -16,21 +16,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: steelbusiness/main/templates/main/home.html:52
 msgid "Site Survey and Measurements"
-msgstr ""
+msgstr "Site Survey and Measurements"
 
 #: steelbusiness/main/templates/main/home.html:72
 msgid "Fabrication Drawings"
-msgstr ""
+msgstr "Fabrication Drawings"
 
 #: steelbusiness/main/templates/main/home.html:82
 msgid "Fabrication and Installation"
-msgstr ""
+msgstr "Fabrication and Installation"
 
 #: steelbusiness/main/templates/main/home.html:99
 msgid "Staircase Types"
-msgstr ""
+msgstr "Staircase Types"
 
 #: steelbusiness/main/templates/main/home.html:100
 msgid ""
@@ -38,75 +39,78 @@ msgid ""
 "our extensive experience, we also create custom, non-standard designs "
 "tailored to your unique requirements."
 msgstr ""
+"The examples below represent some of the staircase types we produce. With "
+"our extensive experience, we also create custom, non-standard designs "
+"tailored to your unique requirements."
 
 #: steelbusiness/main/templates/main/home.html:108
 msgid "Spiral Staircase"
-msgstr ""
+msgstr "Spiral Staircase"
 
 #: steelbusiness/main/templates/main/home.html:116
 msgid "Curved Staircase"
-msgstr ""
+msgstr "Curved Staircase"
 
 #: steelbusiness/main/templates/main/home.html:124
 msgid "Single Central Stringer"
-msgstr ""
+msgstr "Single Central Stringer"
 
 #: steelbusiness/main/templates/main/home.html:132
 msgid "Straight Staircase"
-msgstr ""
+msgstr "Straight Staircase"
 
 #: steelbusiness/main/templates/main/home.html:140
 msgid "Exterior Staircase"
-msgstr ""
+msgstr "Exterior Staircase"
 
 #: steelbusiness/main/templates/main/home.html:148
 msgid "Space Saving"
-msgstr ""
+msgstr "Space Saving"
 
 #: steelbusiness/main/templates/main/home.html:156
 msgid "Fire Exit"
-msgstr ""
+msgstr "Fire Exit"
 
 #: steelbusiness/main/templates/main/home.html:164
 msgid "Basement Staircase"
-msgstr ""
+msgstr "Basement Staircase"
 
 #: steelbusiness/main/views.py:6
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: steelbusiness/main/views.py:11
 msgid "About Us"
-msgstr ""
+msgstr "About Us"
 
 #: steelbusiness/main/views.py:16
 msgid "Our Services"
-msgstr ""
+msgstr "Our Services"
 
 #: steelbusiness/main/views.py:21
 msgid "Staircase Design"
-msgstr ""
+msgstr "Staircase Design"
 
 #: steelbusiness/main/views.py:26
 msgid "Gallery"
-msgstr ""
+msgstr "Gallery"
 
 #: steelbusiness/main/views.py:31
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Frequently Asked Questions"
 
 #: steelbusiness/main/views.py:36
 msgid "Contact Us"
-msgstr ""
+msgstr "Contact Us"
 
 #: steelbusiness/steelbusiness/settings.py:124
 msgid "English"
-msgstr ""
+msgstr "English"
 
 #: steelbusiness/steelbusiness/settings.py:125
 msgid "Mandarin"
-msgstr ""
+msgstr "Mandarin"
 
 #: steelbusiness/steelbusiness/settings.py:126
 msgid "Polish"
-msgstr ""
+msgstr "Polish"

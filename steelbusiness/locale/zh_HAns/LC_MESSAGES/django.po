@@ -18,95 +18,95 @@ msgstr ""
 
 #: steelbusiness/main/templates/main/home.html:52
 msgid "Site Survey and Measurements"
-msgstr ""
+msgstr "现场调查和测量"
 
 #: steelbusiness/main/templates/main/home.html:72
 msgid "Fabrication Drawings"
-msgstr ""
+msgstr "制作图纸"
 
 #: steelbusiness/main/templates/main/home.html:82
 msgid "Fabrication and Installation"
-msgstr ""
+msgstr "制作和安装"
 
 #: steelbusiness/main/templates/main/home.html:99
 msgid "Staircase Types"
-msgstr ""
+msgstr "楼梯类型"
 
 #: steelbusiness/main/templates/main/home.html:100
 msgid ""
 "The examples below represent some of the staircase types we produce. With "
 "our extensive experience, we also create custom, non-standard designs "
 "tailored to your unique requirements."
-msgstr ""
+msgstr "以下示例代表我们生产的一些楼梯类型。凭借我们丰富的经验，我们还可以根据您的独特需求定制非标准设计。"
 
 #: steelbusiness/main/templates/main/home.html:108
 msgid "Spiral Staircase"
-msgstr ""
+msgstr "螺旋楼梯"
 
 #: steelbusiness/main/templates/main/home.html:116
 msgid "Curved Staircase"
-msgstr ""
+msgstr "弯曲楼梯"
 
 #: steelbusiness/main/templates/main/home.html:124
 msgid "Single Central Stringer"
-msgstr ""
+msgstr "单中心梁"
 
 #: steelbusiness/main/templates/main/home.html:132
 msgid "Straight Staircase"
-msgstr ""
+msgstr "直楼梯"
 
 #: steelbusiness/main/templates/main/home.html:140
 msgid "Exterior Staircase"
-msgstr ""
+msgstr "外部楼梯"
 
 #: steelbusiness/main/templates/main/home.html:148
 msgid "Space Saving"
-msgstr ""
+msgstr "节省空间"
 
 #: steelbusiness/main/templates/main/home.html:156
 msgid "Fire Exit"
-msgstr ""
+msgstr "消防出口"
 
 #: steelbusiness/main/templates/main/home.html:164
 msgid "Basement Staircase"
-msgstr ""
+msgstr "地下室楼梯"
 
 #: steelbusiness/main/views.py:6
 msgid "Home"
-msgstr ""
+msgstr "首页"
 
 #: steelbusiness/main/views.py:11
 msgid "About Us"
-msgstr ""
+msgstr "关于我们"
 
 #: steelbusiness/main/views.py:16
 msgid "Our Services"
-msgstr ""
+msgstr "我们的服务"
 
 #: steelbusiness/main/views.py:21
 msgid "Staircase Design"
-msgstr ""
+msgstr "楼梯设计"
 
 #: steelbusiness/main/views.py:26
 msgid "Gallery"
-msgstr ""
+msgstr "画廊"
 
 #: steelbusiness/main/views.py:31
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "常见问题"
 
 #: steelbusiness/main/views.py:36
 msgid "Contact Us"
-msgstr ""
+msgstr "联系我们"
 
 #: steelbusiness/steelbusiness/settings.py:124
 msgid "English"
-msgstr ""
+msgstr "英语"
 
 #: steelbusiness/steelbusiness/settings.py:125
 msgid "Mandarin"
-msgstr ""
+msgstr "普通话"
 
 #: steelbusiness/steelbusiness/settings.py:126
 msgid "Polish"
-msgstr ""
+msgstr "波兰语"
