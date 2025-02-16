@@ -48,6 +48,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.locale.LocaleMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -55,7 +56,6 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    "django.middleware.security.SecurityMiddleware",
 ]
 
 ROOT_URLCONF = "steelbusiness.urls"
@@ -112,18 +112,20 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
-LANGUAGE_CODE = "en-us"  # Default language
+LANGUAGE_CODE = 'en'  # Default language
 
 USE_I18N = True  # Enable internationalization
+USE_L10N = True
 
 TIME_ZONE = "UTC"
 
 USE_TZ = True
 
+
 LANGUAGES = [
     ('en', _('English')),
-    ('zh-hans', _('Mandarin')),
     ('pl', _('Polish')),
+    ('zh-hans', _('Mandarin')),
 ]
 
 
