@@ -20,15 +20,10 @@ from django.conf.urls.i18n import i18n_patterns
 from django.urls import path, include
 from main import views
 
-
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path('', include('steelbusiness.urls')),
-]
-
-
-urlpatterns = [
-    path('', views.home, name='home'),
+    path('admin/', admin.site.urls),
+    path('set-language/', views.set_language, name='set_language'),
+    path('', views.home, name='home'),  # Root URL pattern
     path('about/', views.about, name='about'),
     path('services/', views.services, name='services'),
     path('staircase/', views.staircase, name='staircase'),
