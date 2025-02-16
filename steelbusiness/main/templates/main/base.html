@@ -75,6 +75,15 @@
                 </span>
             </div>
         </div>
+        <form action="{% url 'set_language' %}" method="post">
+            {% csrf_token %}
+            <select name="language">
+                <option value="en">English</option>
+                <option value="zh-hans">Mandarin</option>
+                <option value="pl">Polish</option>
+            </select>
+            <button type="submit">Change Language</button>
+        </form>
     </nav>
     
         {% block content %}
